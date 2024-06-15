@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container{
+  margin-left: 350px;
+  margin-top: 80px;
+  max-width: fit-content;
+  position: relative;
+}
+
+.addContainer{
+  margin: 10px auto;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 999; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.tableContainer{
+  margin-top: 20px;
+  border: 1px solid #c9c5c4;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.tableContainer table thead tr{
+  background-color: #f0eaea;
+}
+
+.tableContainer table thead tr th,
+.tableContainer table tbody tr td{
+  min-width: 200px;
+  padding: 5px;
+  text-align: center;
+}
+
+.tableContainer table tbody tr td{
+  border-bottom: 1px solid #c9c5c4;
+}
